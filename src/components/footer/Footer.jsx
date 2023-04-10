@@ -37,7 +37,7 @@ const Footer = () => {
                         <FaFacebookF />
                     </span>
                     <span className="icon" onClick={()=>{
-                        window.location='instagram.com/bhupendra_sinha_002';
+                        window.location='https://instagram.com/bhupendra_sinha_002?igshid=OTJhZDVkZWE=';
                     }}>
                         <FaInstagram />
                     </span>
