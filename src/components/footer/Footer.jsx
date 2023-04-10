@@ -31,16 +31,24 @@ const Footer = () => {
                     esse cillum dolore eu fugiat nulla pariatur.
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
+                    <span className="icon" onClick={()=>{
+                        window.location='https://www.facebook.com/bhupendra.sinha.3363';
+                    }}>
                         <FaFacebookF />
                     </span>
-                    <span className="icon">
+                    <span className="icon" onClick={()=>{
+                        window.location='instagram.com/bhupendra_sinha_002';
+                    }}>
                         <FaInstagram />
                     </span>
-                    <span className="icon" >
+                    <span className="icon" onClick={()=>{
+                        window.location='https://twitter.com/Bhupend48804052';
+                    }}>
                         <FaTwitter />
                     </span>
-                    <span className="icon">
+                    <span className="icon" onClick={()=>{
+                        window.location='https://www.linkedin.com/in/bhupendra-sinha-151109239';
+                    }}>
                         <FaLinkedin/>
                     </span>
                 </div>
